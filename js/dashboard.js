@@ -155,3 +155,20 @@ function renderHistory(history) {
     });
 }
 
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
+
+        loadDashboard()
+            .catch(error => {
+
+                console.error(
+                    "Dashboard load failed:",
+                    error
+                );
+
+            });
+
+    }
+);
+
