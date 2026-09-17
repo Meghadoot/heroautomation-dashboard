@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #111827;
+    color: #f9fafb;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1 {
+    color: #60a5fa;
+}
+
+h2 {
+    color: #93c5fd;
+    margin-top: 40px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.summary-card h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.summary-card span {
+    color: #9ca3af;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1f2937;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #374151;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: #17202f;
+}
+
+.success {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+.failure {
+    color: #f87171;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+
+    .summary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

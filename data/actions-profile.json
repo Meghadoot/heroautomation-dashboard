@@ -1,0 +1,30 @@
+{
+  "profileName": "Daily",
+
+  "actions": {
+    "Pass the Tower": true,
+    "Collect 3 chests in the Outland": true,
+    "Check out the Expeditions": true,
+    "Check the Astral Seer": true,
+    "Collect mail": true,
+    "Run daily quests": true,
+    "Collect daily rewards": true,
+    "Collect rewards for quests": true,
+    "Farm Dungeon": true,
+    "Synchronization": true,
+    "Reload Game": true
+  },
+
+  "quests": {
+    "Upgrade the skills of heroes 3 times": true,
+    "Complete 3 heroic missions": true,
+    "Use the exchange of emeralds 1 time": true,
+    "Perform 1 summon in the Soul Atrium": true,
+    "Send gifts to guildmates": true,
+    "Use an experience potion": true,
+    "Upgrade Gift of the Elements by 2 levels": true,
+    "Open the Orb of Titan Artifacts": true,
+    "Use Summon Pets 1 time": true,
+    "Get 150 Guild Activity Points": true
+  }
+}
