@@ -1,0 +1,15 @@
+{
+  "title": "HeroAutomation Dashboard",
+  "version": "1.1",
+  "refreshSeconds": 60,
+
+  "showAccountNames": true,
+  "showAccountRuntime": true,
+
+  "showActionsMatrix": true,
+  "showQuestMatrix": true,
+
+  "showHistory": true,
+
+  "theme": "dark"
+}
