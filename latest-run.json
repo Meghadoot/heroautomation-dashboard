@@ -1,0 +1,59 @@
+{
+  "startedAt": "2026-09-17T14:48:21.898Z",
+  "date": "2026-09-17",
+  "profileName": "HeroAutomation",
+  "forceRun": false,
+  "totalEnabledAccounts": 3,
+  "attempted": 3,
+  "skipped": 0,
+  "completed": 3,
+  "confirmed": 3,
+  "timeoutOnly": 0,
+  "failed": 0,
+  "accounts": [
+    {
+      "name": "Account-Mjata",
+      "startedAt": "2026-09-17T14:48:26.807Z",
+      "loginVerified": true,
+      "runSubmitted": true,
+      "successSignalDetected": true,
+      "logoutVerified": true,
+      "result": "SUCCESS_CONFIRMED",
+      "completionReason": "All tasks done",
+      "completionSignal": "ALL_TASKS_DONE",
+      "signalDetectedAt": "2026-09-17T14:48:50.122Z",
+      "completedAt": "2026-09-17T14:48:54.254Z",
+      "finishedAt": "2026-09-17T14:48:57.236Z"
+    },
+    {
+      "name": "Account-Amgy",
+      "startedAt": "2026-09-17T14:48:57.237Z",
+      "loginVerified": true,
+      "runSubmitted": true,
+      "successSignalDetected": true,
+      "logoutVerified": true,
+      "result": "SUCCESS_CONFIRMED",
+      "completionReason": "All tasks done",
+      "completionSignal": "ALL_TASKS_DONE",
+      "signalDetectedAt": "2026-09-17T14:49:27.929Z",
+      "completedAt": "2026-09-17T14:49:31.632Z",
+      "finishedAt": "2026-09-17T14:49:34.471Z"
+    },
+    {
+      "name": "Account-Joe",
+      "startedAt": "2026-09-17T14:49:34.473Z",
+      "loginVerified": true,
+      "runSubmitted": true,
+      "successSignalDetected": true,
+      "logoutVerified": true,
+      "result": "SUCCESS_CONFIRMED",
+      "completionReason": "All tasks done",
+      "completionSignal": "ALL_TASKS_DONE",
+      "signalDetectedAt": "2026-09-17T14:50:04.029Z",
+      "completedAt": "2026-09-17T14:50:08.457Z",
+      "finishedAt": "2026-09-17T14:50:12.543Z"
+    }
+  ],
+  "finishedAt": "2026-09-17T14:50:12.545Z",
+  "overallResult": "COMPLETED"
+}

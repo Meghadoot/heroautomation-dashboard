@@ -4,13 +4,18 @@
   "actions": {
     "Pass the Tower": true,
     "Collect 3 chests in the Outland": true,
+    "Collect 12 chests in the Outland (540 emeralds)": false,
+    "Collect 21 chests in the Outland (1740 emeralds)": false,
     "Check out the Expeditions": true,
     "Check the Astral Seer": true,
+    "Raid adventure": false,
     "Collect mail": true,
     "Run daily quests": true,
     "Collect daily rewards": true,
     "Collect rewards for quests": true,
+    "Run ToE": false,
     "Farm Dungeon": true,
+    "Show rewards": false,
     "Synchronization": true,
     "Reload Game": true
   },
@@ -23,7 +28,10 @@
     "Send gifts to guildmates": true,
     "Use an experience potion": true,
     "Upgrade Gift of the Elements by 2 levels": true,
+    "Level up any hero artifact once": false,
+    "Level up any titan artifact once": false,
     "Open the Orb of Titan Artifacts": true,
+    "Upgrade any Skin of any hero 1 time": false,
     "Use Summon Pets 1 time": true,
     "Get 150 Guild Activity Points": true
   }
