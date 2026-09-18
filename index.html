@@ -11,15 +11,27 @@
 <body>
     <main class="container">
         <header class="page-header">
-            <h1>HeroAutomation Dashboard</h1>
-            <p class="page-subtitle">Multi-account execution and Goodwin profile overview</p>
+            <div>
+                <p class="eyebrow">Operations dashboard</p>
+                <h1>HeroAutomation Dashboard</h1>
+                <p class="page-subtitle">Multi-account execution and Goodwin profile overview</p>
+            </div>
+            <div class="live-indicator" aria-label="Dashboard active">
+                <span class="live-dot"></span>
+                Live report
+            </div>
         </header>
 
         <div id="dashboardMeta"></div>
         <div id="summaryCards" class="summary-grid"></div>
 
         <section class="dashboard-section">
-            <h2>Account Status</h2>
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Execution</p>
+                    <h2>Account Status</h2>
+                </div>
+            </div>
             <div class="table-wrapper">
                 <table id="accountsTable">
                     <thead>
@@ -35,8 +47,14 @@
         </section>
 
         <section class="dashboard-section">
-            <h2>Goodwin Action Matrix</h2>
-            <div class="table-wrapper">
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Configuration</p>
+                    <h2>Goodwin Action Matrix</h2>
+                </div>
+                <p class="section-note">Effective action profile by account</p>
+            </div>
+            <div class="table-wrapper matrix-wrapper">
                 <table id="actionsTable">
                     <thead>
                         <tr>
@@ -50,8 +68,14 @@
         </section>
 
         <section class="dashboard-section">
-            <h2>Quest Matrix</h2>
-            <div class="table-wrapper">
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Configuration</p>
+                    <h2>Quest Matrix</h2>
+                </div>
+                <p class="section-note">Effective quest profile by account</p>
+            </div>
+            <div class="table-wrapper matrix-wrapper">
                 <table id="questsTable">
                     <thead>
                         <tr>
@@ -65,7 +89,12 @@
         </section>
 
         <section class="dashboard-section">
-            <h2>Recent History</h2>
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Reliability</p>
+                    <h2>Recent History</h2>
+                </div>
+            </div>
             <div class="table-wrapper">
                 <table id="historyTable">
                     <thead>
@@ -80,6 +109,10 @@
                 </table>
             </div>
         </section>
+
+        <footer class="page-footer">
+            HeroAutomation dashboard data refreshes automatically every 60 seconds.
+        </footer>
     </main>
 
     <script src="js/dashboard.js"></script>
