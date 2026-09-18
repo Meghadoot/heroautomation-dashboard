@@ -191,14 +191,21 @@ function renderComparisonMatrix(tableId, firstColumnLabel, report, profile, cate
     for (const itemName of allItemNames) {
         const accountCells = accountNames.map(accountName => {
             const enabled = resolveAccountSetting(profile, accountName, category, itemName);
-            return `
-                <td class="matrix-status ${enabled ? "enabled" : "disabled"}">
-                    <span class="status-symbol" aria-label="${enabled ? "Enabled" : "Disabled"}">
-                        ${enabled ? "✓" : "×"}
-                    </span>
-                    <span class="status-text">${enabled ? "Enabled" : "Disabled"}</span>
-                </td>
-            `;
+return `
+    <td class="matrix-status ${
+        enabled
+            ? "enabled"
+            : "disabled"
+    }">
+
+        ${
+            enabled
+                ? "✅"
+                : "❌"
+        }
+
+    </td>
+`;
         }).join("");
 
         tbody.insertAdjacentHTML("beforeend", `

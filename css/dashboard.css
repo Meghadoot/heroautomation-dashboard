@@ -1,8 +1,12 @@
 
-/* HeroAutomation v1.2 comparison matrices */
+/* ==========================================
+   HeroAutomation Matrix Styling
+   ========================================== */
+
 #actionsTable,
 #questsTable {
-    min-width: 840px;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 #actionsTable th,
@@ -39,33 +43,25 @@
 }
 
 .matrix-status {
-    min-width: 150px;
-    white-space: nowrap;
+
+    min-width: 90px;
+
+    text-align: center;
+
+    font-size: 1.15rem;
+
+    font-weight: bold;
 }
 
-.status-symbol {
-    display: inline-grid;
-    width: 24px;
-    height: 24px;
-    margin-right: 7px;
-    place-items: center;
-    border-radius: 50%;
-    font-weight: 800;
+.matrix-status.enabled {
+    color: #22c55e;
 }
 
-.matrix-status.enabled .status-symbol {
-    color: #052e16;
-    background: #4ade80;
+.matrix-status.disabled {
+    color: #ef4444;
 }
 
-.matrix-status.disabled .status-symbol {
-    color: #450a0a;
-    background: #fb7185;
-}
 
-.status-text {
-    font-size: 0.9rem;
-}
 
 section {
     overflow-x: auto;
