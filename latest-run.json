@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-18T00:13:02.158Z",
+  "startedAt": "2026-09-18T17:51:43.511Z",
   "date": "2026-09-18",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-09-18T00:13:06.822Z",
+      "startedAt": "2026-09-18T17:51:46.978Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -21,13 +21,13 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T00:13:36.152Z",
-      "completedAt": "2026-09-18T00:13:40.791Z",
-      "finishedAt": "2026-09-18T00:13:43.905Z"
+      "signalDetectedAt": "2026-09-18T17:52:20.641Z",
+      "completedAt": "2026-09-18T17:52:24.134Z",
+      "finishedAt": "2026-09-18T17:52:27.371Z"
     },
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-18T00:13:43.908Z",
+      "startedAt": "2026-09-18T17:52:27.373Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -35,13 +35,13 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T00:14:14.528Z",
-      "completedAt": "2026-09-18T00:14:18.934Z",
-      "finishedAt": "2026-09-18T00:14:22.750Z"
+      "signalDetectedAt": "2026-09-18T17:53:12.344Z",
+      "completedAt": "2026-09-18T17:53:16.123Z",
+      "finishedAt": "2026-09-18T17:53:18.921Z"
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-09-18T00:14:22.752Z",
+      "startedAt": "2026-09-18T17:53:18.924Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -49,11 +49,11 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T00:15:00.170Z",
-      "completedAt": "2026-09-18T00:15:03.389Z",
-      "finishedAt": "2026-09-18T00:15:06.564Z"
+      "signalDetectedAt": "2026-09-18T17:53:41.144Z",
+      "completedAt": "2026-09-18T17:53:44.727Z",
+      "finishedAt": "2026-09-18T17:53:47.583Z"
     }
   ],
-  "finishedAt": "2026-09-18T00:15:06.566Z",
+  "finishedAt": "2026-09-18T17:53:47.585Z",
   "overallResult": "COMPLETED"
 }
