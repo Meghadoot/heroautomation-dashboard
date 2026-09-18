@@ -16,6 +16,11 @@ async function loadDashboard() {
 
     renderSummary(latest);
 
+    renderMeta(
+    	latest,
+    	profile
+    );
+
     renderAccounts(latest);
 
     renderActions(profile);
@@ -172,3 +177,35 @@ document.addEventListener(
     }
 );
 
+function renderMeta(report, profile) {
+
+    const finishedAt =
+        report.finishedAt
+            ? new Date(
+                report.finishedAt
+            ).toLocaleString()
+            : "N/A";
+
+    document.getElementById(
+        "dashboardMeta"
+    ).innerHTML = `
+    
+        <div class="meta-card">
+
+            <strong>Profile:</strong>
+            ${profile.profileName}
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <strong>Last Updated:</strong>
+            ${finishedAt}
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <strong>Version:</strong>
+            v1.1.1
+
+        </div>
+
+    `;
+}
