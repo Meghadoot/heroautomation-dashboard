@@ -81,3 +81,41 @@ section {
         min-width: 240px;
     }
 }
+
+/* Dashboard polish */
+
+#actionsTable,
+#questsTable {
+    margin-top: 12px;
+}
+
+#actionsTable tr:hover,
+#questsTable tr:hover,
+#accountsTable tr:hover,
+#historyTable tr:hover {
+
+    background: #243447;
+}
+
+.meta-card {
+
+    display: flex;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.status-card.success {
+    color: #22c55e;
+}
+
+.status-card.failure {
+    color: #ef4444;
+}
+
+.status-card.warning {
+    color: #eab308;
+}
