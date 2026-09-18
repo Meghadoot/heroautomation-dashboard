@@ -6,9 +6,7 @@ async function fetchJson(resourcePath) {
     );
 
     if (!response.ok) {
-        throw new Error(
-            `Unable to load ${resourcePath}: HTTP ${response.status}`
-        );
+        throw new Error(`Unable to load ${resourcePath}: HTTP ${response.status}`);
     }
 
     return response.json();
@@ -26,17 +24,13 @@ function escapeHtml(value) {
 function formatDateTime(value) {
     if (!value) return "-";
     const date = new Date(value);
-    return Number.isNaN(date.getTime())
-        ? "-"
-        : date.toLocaleString();
+    return Number.isNaN(date.getTime()) ? "-" : date.toLocaleString();
 }
 
 function formatTime(value) {
     if (!value) return "-";
     const date = new Date(value);
-    return Number.isNaN(date.getTime())
-        ? "-"
-        : date.toLocaleTimeString();
+    return Number.isNaN(date.getTime()) ? "-" : date.toLocaleTimeString();
 }
 
 function formatDuration(value) {
@@ -45,10 +39,7 @@ function formatDuration(value) {
 
     const minutes = Math.floor(seconds / 60);
     const remainder = seconds % 60;
-
-    return minutes > 0
-        ? `${minutes}m ${remainder}s`
-        : `${remainder}s`;
+    return minutes > 0 ? `${minutes}m ${remainder}s` : `${remainder}s`;
 }
 
 function statusPresentation(result) {
@@ -61,10 +52,32 @@ function statusPresentation(result) {
             return { label: "Skipped", icon: "→", cssClass: "muted" };
         case "COMPLETED":
         case "ALREADY_COMPLETED_TODAY":
-            return { label: result.replaceAll("_", " "), icon: "✓", cssClass: "success" };
+            return {
+                label: String(result).replaceAll("_", " "),
+                icon: "✓",
+                cssClass: "success"
+            };
         default:
             return { label: result || "Unknown", icon: "×", cssClass: "failure" };
     }
+}
+
+function getAccountNames(report) {
+    return (report.accounts || [])
+        .filter(account => account && account.name)
+        .map(account => account.name);
+}
+
+function resolveAccountSetting(profile, accountName, category, itemName) {
+    const accountProfiles = profile.accountProfiles || {};
+    const accountProfile = accountProfiles[accountName] || {};
+    const accountCategory = accountProfile[category] || {};
+
+    if (Object.prototype.hasOwnProperty.call(accountCategory, itemName)) {
+        return accountCategory[itemName];
+    }
+
+    return Boolean((profile[category] || {})[itemName]);
 }
 
 async function loadDashboard() {
@@ -77,8 +90,8 @@ async function loadDashboard() {
     renderMeta(latest, profile);
     renderSummary(latest);
     renderAccounts(latest);
-    renderActions(profile);
-    renderQuests(profile);
+    renderComparisonMatrix("actionsTable", "Goodwin action", latest, profile, "actions");
+    renderComparisonMatrix("questsTable", "Quest", latest, profile, "quests");
     renderHistory(history);
 }
 
@@ -91,7 +104,7 @@ function renderMeta(report, profile) {
             <span><strong>Profile:</strong> ${escapeHtml(profile.profileName || "Default")}</span>
             <span><strong>Last updated:</strong> ${escapeHtml(formatDateTime(report.finishedAt))}</span>
             <span><strong>Runtime:</strong> ${escapeHtml(formatDuration(report.runtimeSeconds))}</span>
-            <span><strong>Version:</strong> v1.1.2</span>
+            <span><strong>Version:</strong> v1.2.0</span>
         </div>
     `;
 }
@@ -152,31 +165,49 @@ function renderAccounts(report) {
     }
 }
 
-function renderBooleanTable(tableId, entries, firstColumnLabel) {
+function renderComparisonMatrix(tableId, firstColumnLabel, report, profile, category) {
     const table = document.getElementById(tableId);
     const headRow = table?.querySelector("thead tr");
     const tbody = table?.querySelector("tbody");
     if (!headRow || !tbody) return;
 
-    headRow.innerHTML = `<th>${escapeHtml(firstColumnLabel)}</th><th>Status</th>`;
+    const accountNames = getAccountNames(report);
+    const defaultItems = profile[category] || {};
+    const accountProfiles = profile.accountProfiles || {};
+    const allItemNames = new Set(Object.keys(defaultItems));
+
+    for (const accountName of accountNames) {
+        const overrides = accountProfiles[accountName]?.[category] || {};
+        Object.keys(overrides).forEach(itemName => allItemNames.add(itemName));
+    }
+
+    headRow.innerHTML = `
+        <th class="matrix-label-column">${escapeHtml(firstColumnLabel)}</th>
+        ${accountNames.map(name => `<th>${escapeHtml(name)}</th>`).join("")}
+    `;
+
     tbody.innerHTML = "";
 
-    for (const [name, enabled] of Object.entries(entries || {})) {
+    for (const itemName of allItemNames) {
+        const accountCells = accountNames.map(accountName => {
+            const enabled = resolveAccountSetting(profile, accountName, category, itemName);
+            return `
+                <td class="matrix-status ${enabled ? "enabled" : "disabled"}">
+                    <span class="status-symbol" aria-label="${enabled ? "Enabled" : "Disabled"}">
+                        ${enabled ? "✓" : "×"}
+                    </span>
+                    <span class="status-text">${enabled ? "Enabled" : "Disabled"}</span>
+                </td>
+            `;
+        }).join("");
+
         tbody.insertAdjacentHTML("beforeend", `
             <tr>
-                <td>${escapeHtml(name)}</td>
-                <td class="${enabled ? "enabled" : "disabled"}">${enabled ? "✓ Enabled" : "× Disabled"}</td>
+                <td class="matrix-label-column">${escapeHtml(itemName)}</td>
+                ${accountCells}
             </tr>
         `);
     }
-}
-
-function renderActions(profile) {
-    renderBooleanTable("actionsTable", profile.actions, "Goodwin action");
-}
-
-function renderQuests(profile) {
-    renderBooleanTable("questsTable", profile.quests, "Quest");
 }
 
 function renderHistory(history) {

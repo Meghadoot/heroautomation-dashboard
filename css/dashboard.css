@@ -1,153 +1,87 @@
-:root {
-    --bg: #081327;
-    --card: #1f2937;
-    --card-hover: #263445;
-    --border: #374151;
-    --primary: #3b82f6;
-    --success: #22c55e;
-    --danger: #ef4444;
-    --text: #f8fafc;
-    --muted: #94a3b8;
+
+/* HeroAutomation v1.2 comparison matrices */
+#actionsTable,
+#questsTable {
+    min-width: 840px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 30px;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "Segoe UI", Arial, sans-serif;
-}
-
-.container {
-    max-width: 1500px;
-    margin: auto;
-}
-
-h1 {
-    margin-bottom: 10px;
-    color: #93c5fd;
-}
-
-h2 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    color: #93c5fd;
-}
-
-#dashboardMeta {
-    margin-bottom: 25px;
-}
-
-.meta-card {
-    padding: 18px;
-    background: var(--card);
-    border-radius: 12px;
-    border: 1px solid var(--border);
-}
-
-.summary-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 30px;
-}
-
-.summary-card {
-    flex: 1;
-    min-width: 170px;
-
-    background: var(--card);
-
-    border: 1px solid var(--border);
-    border-radius: 12px;
-
-    padding: 20px;
-
+#actionsTable th,
+#questsTable th,
+#actionsTable td,
+#questsTable td {
     text-align: center;
-
-    transition: all 0.2s ease;
+    vertical-align: middle;
 }
 
-.summary-card:hover {
-    background: var(--card-hover);
-    transform: translateY(-2px);
+#actionsTable .matrix-label-column,
+#questsTable .matrix-label-column {
+    min-width: 340px;
+    text-align: left;
+    position: sticky;
+    left: 0;
+    z-index: 1;
 }
 
-.summary-card h3 {
-    margin: 0;
-    font-size: 2rem;
-    color: white;
-}
-
-.summary-card span {
-    color: var(--muted);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--card);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-th {
+#actionsTable th.matrix-label-column,
+#questsTable th.matrix-label-column {
+    z-index: 2;
     background: var(--primary);
-    color: white;
 }
 
-th,
-td {
-    padding: 12px;
-    border: 1px solid var(--border);
+#actionsTable td.matrix-label-column,
+#questsTable td.matrix-label-column {
+    background: var(--card);
 }
 
-tr:nth-child(even) {
+#actionsTable tr:nth-child(even) td.matrix-label-column,
+#questsTable tr:nth-child(even) td.matrix-label-column {
     background: #172235;
 }
 
-.success {
-    color: var(--success);
-    font-weight: bold;
+.matrix-status {
+    min-width: 150px;
+    white-space: nowrap;
 }
 
-.failure {
-    color: var(--danger);
-    font-weight: bold;
+.status-symbol {
+    display: inline-grid;
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+    place-items: center;
+    border-radius: 50%;
+    font-weight: 800;
 }
 
-.enabled {
-    color: var(--success);
-    font-weight: bold;
+.matrix-status.enabled .status-symbol {
+    color: #052e16;
+    background: #4ade80;
 }
 
-.disabled {
-    color: var(--danger);
-    font-weight: bold;
+.matrix-status.disabled .status-symbol {
+    color: #450a0a;
+    background: #fb7185;
 }
 
-.footer {
-    margin-top: 40px;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.85rem;
+.status-text {
+    font-size: 0.9rem;
+}
+
+section {
+    overflow-x: auto;
 }
 
 @media (max-width: 900px) {
-
-    body {
-        padding: 10px;
+    .status-text {
+        display: none;
     }
 
-    .summary-grid {
-        flex-direction: column;
+    .matrix-status {
+        min-width: 82px;
     }
 
-    .summary-card {
-        min-width: auto;
+    #actionsTable .matrix-label-column,
+    #questsTable .matrix-label-column {
+        min-width: 240px;
     }
 }
