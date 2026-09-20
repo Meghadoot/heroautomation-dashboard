@@ -1,8 +1,8 @@
 {
-  "startedAt": "2026-09-18T22:09:53.562Z",
-  "date": "2026-09-19",
+  "startedAt": "2026-09-20T23:24:13.402Z",
+  "date": "2026-09-21",
   "profileName": "HeroAutomation",
-  "forceRun": true,
+  "forceRun": false,
   "totalEnabledAccounts": 3,
   "attempted": 3,
   "skipped": 0,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-09-18T22:09:57.708Z",
+      "startedAt": "2026-09-20T23:24:24.683Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -21,14 +21,14 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T22:10:22.851Z",
-      "completedAt": "2026-09-18T22:10:27.220Z",
-      "finishedAt": "2026-09-18T22:10:30.650Z",
-      "runtimeSeconds": 33
+      "signalDetectedAt": "2026-09-20T23:25:16.064Z",
+      "completedAt": "2026-09-20T23:25:20.883Z",
+      "finishedAt": "2026-09-20T23:25:26.010Z",
+      "runtimeSeconds": 61
     },
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-18T22:10:30.653Z",
+      "startedAt": "2026-09-20T23:25:26.013Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -36,14 +36,14 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T22:11:03.159Z",
-      "completedAt": "2026-09-18T22:11:07.449Z",
-      "finishedAt": "2026-09-18T22:11:11.035Z",
-      "runtimeSeconds": 40
+      "signalDetectedAt": "2026-09-20T23:26:16.150Z",
+      "completedAt": "2026-09-20T23:26:27.471Z",
+      "finishedAt": "2026-09-20T23:26:31.551Z",
+      "runtimeSeconds": 66
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-09-18T22:11:11.038Z",
+      "startedAt": "2026-09-20T23:26:31.557Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -51,13 +51,13 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-18T22:12:01.764Z",
-      "completedAt": "2026-09-18T22:12:05.197Z",
-      "finishedAt": "2026-09-18T22:12:09.852Z",
-      "runtimeSeconds": 59
+      "signalDetectedAt": "2026-09-20T23:27:17.722Z",
+      "completedAt": "2026-09-20T23:27:22.251Z",
+      "finishedAt": "2026-09-20T23:27:26.883Z",
+      "runtimeSeconds": 55
     }
   ],
-  "finishedAt": "2026-09-18T22:12:09.856Z",
+  "finishedAt": "2026-09-20T23:27:26.887Z",
   "overallResult": "COMPLETED",
-  "runtimeSeconds": 136
+  "runtimeSeconds": 193
 }
