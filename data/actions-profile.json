@@ -6,6 +6,17 @@
     "verifyAfterApply": true,
     "strictLabelMatching": false
   },
+
+"dungeon": {
+  "enabledWhenAction": "Farm Dungeon",
+  "targetTitanite": 41,
+  "timeoutMinutes": 20,
+  "completionText": "Dungeon completed!",
+  "popupTitle": "Set titanite count, dungeon mode and how to open hatches",
+  "buttonText": "Dungeon",
+  "runText": "Run"
+},
+
   "selectors": {
     "doFollowingTitle": "Do the following?",
     "questSetupControl": "Quest setup",
@@ -49,21 +60,30 @@
     "Account-Mjata": {
       "profileName": "Daily",
       "actions": {},
-      "quests": {}
+      "quests": {},
+      "dungeon": {
+	"targetTitanite": 41
+	}
     },
     "Account-Amgy": {
       "profileName": "Daily with Adventure",
       "actions": {
         "Raid adventure": true
       },
-      "quests": {}
+      "quests": {},
+      "dungeon": {
+	"targetTitanite": 41
+	}
     },
     "Account-Joe": {
       "profileName": "Daily without Dungeon",
       "actions": {},
       "quests": {
         "Level up any titan artifact once": false
-      }
+      },
+      "dungeon": {
+	"targetTitanite": 41
+	}
     }
   }
 }
