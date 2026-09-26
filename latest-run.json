@@ -1,16 +1,21 @@
 {
-  "startedAt": "2026-09-26T13:56:48.535Z",
+  "startedAt": "2026-09-26T17:06:25.024Z",
   "date": "2026-09-26",
   "profileName": "HeroAutomation",
   "forceRun": false,
   "totalEnabledAccounts": 3,
-  "attempted": 1,
-  "skipped": 2,
-  "completed": 1,
-  "confirmed": 1,
+  "attempted": 0,
+  "skipped": 3,
+  "completed": 0,
+  "confirmed": 0,
   "timeoutOnly": 0,
   "failed": 0,
   "accounts": [
+    {
+      "name": "Account-Mjata",
+      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
+      "runtimeSeconds": null
+    },
     {
       "name": "Account-Amgy",
       "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
@@ -20,24 +25,9 @@
       "name": "Account-Joe",
       "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
       "runtimeSeconds": null
-    },
-    {
-      "name": "Account-Mjata",
-      "startedAt": "2026-09-26T13:56:52.258Z",
-      "loginVerified": true,
-      "runSubmitted": true,
-      "successSignalDetected": true,
-      "logoutVerified": true,
-      "result": "SUCCESS_CONFIRMED",
-      "completionReason": "All tasks done",
-      "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-26T13:57:14.807Z",
-      "completedAt": "2026-09-26T13:57:19.317Z",
-      "finishedAt": "2026-09-26T13:57:29.456Z",
-      "runtimeSeconds": 37
     }
   ],
-  "finishedAt": "2026-09-26T13:57:29.458Z",
-  "overallResult": "COMPLETED",
-  "runtimeSeconds": 41
+  "finishedAt": "2026-09-26T17:06:25.027Z",
+  "overallResult": "ALREADY_COMPLETED_TODAY",
+  "runtimeSeconds": 0
 }
