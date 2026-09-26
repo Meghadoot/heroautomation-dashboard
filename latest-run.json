@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-26T18:22:48.008Z",
+  "startedAt": "2026-09-26T18:24:47.129Z",
   "date": "2026-09-26",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -11,8 +11,8 @@
   "timeoutOnly": 0,
   "failed": 0,
   "accounts": [],
-  "finishedAt": "2026-09-26T18:22:53.104Z",
+  "finishedAt": "2026-09-26T18:27:47.477Z",
   "overallResult": "FATAL_ERROR",
-  "fatalError": "browserType.launchPersistentContext: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\mgardi\\AppData\\Local\\ms-playwright\\firefox-1543\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\mgardi\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\cdMdcdgR.Profile 1 -juggler-pipe about:blank\n<launched> pid=26280\n[pid=26280][out] Crash Annotation GraphicsCriticalError: |[G0][GFX1-]: shader-cache: Shader disk cache is not supported (t=0.354599) [GFX1-]: shader-cache: Shader disk cache is not supported\n[pid=26280][err] [ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported\n[pid=26280] <process did exit: exitCode=0, signal=null>\n[pid=26280] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\mgardi\\AppData\\Local\\ms-playwright\\firefox-1543\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\mgardi\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\cdMdcdgR.Profile 1 -juggler-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=26280\u001b[22m\n\u001b[2m  - [pid=26280][out] Crash Annotation GraphicsCriticalError: |[G0][GFX1-]: shader-cache: Shader disk cache is not supported (t=0.354599) [GFX1-]: shader-cache: Shader disk cache is not supported\u001b[22m\n\u001b[2m  - [pid=26280][err] [ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported\u001b[22m\n\u001b[2m  - [pid=26280] <process did exit: exitCode=0, signal=null>\u001b[22m\n\u001b[2m  - [pid=26280] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=26280] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=26280] <kill>\u001b[22m\n\u001b[2m  - [pid=26280] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=26280] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=26280] <gracefully close end>\u001b[22m\n",
-  "runtimeSeconds": 5
+  "fatalError": "browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n\u001b[2m  - <launching> C:\\Users\\mgardi\\AppData\\Local\\ms-playwright\\firefox-1543\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\mgardi\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\cdMdcdgR.Profile 1 -juggler-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=33504\u001b[22m\n\u001b[2m  - [pid=33504][out] Crash Annotation GraphicsCriticalError: |[G0][GFX1-]: shader-cache: Shader disk cache is not supported (t=0.396262) [GFX1-]: shader-cache: Shader disk cache is not supported\u001b[22m\n\u001b[2m  - [pid=33504][err] [ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported\u001b[22m\n",
+  "runtimeSeconds": 180
 }
