@@ -1,6 +1,17 @@
 {
   "profileName": "Daily",
-
+  "execution": {
+    "groupAccountsByEffectiveProfile": true,
+    "applyOnlyWhenProfileChanges": true,
+    "verifyAfterApply": true,
+    "strictLabelMatching": true
+  },
+  "selectors": {
+    "doFollowingTitle": "Do the following?",
+    "questSetupControl": "Quest setup",
+    "questDialogTitle": "Set quests to do:",
+    "questSaveControl": "Save"
+  },
   "actions": {
     "Pass the Tower": true,
     "Collect 3 chests in the Outland": true,
@@ -19,7 +30,6 @@
     "Synchronization": true,
     "Reload Game": true
   },
-
   "quests": {
     "Upgrade the skills of heroes 3 times": true,
     "Complete 3 heroic missions": true,
@@ -34,5 +44,26 @@
     "Upgrade any Skin of any hero 1 time": false,
     "Use Summon Pets 1 time": true,
     "Get 150 Guild Activity Points": true
+  },
+  "accountProfiles": {
+    "Account-Mjata": {
+      "profileName": "Daily",
+      "actions": {},
+      "quests": {}
+    },
+    "Account-Amgy": {
+      "profileName": "Daily with Adventure",
+      "actions": {
+        "Raid adventure": true
+      },
+      "quests": {}
+    },
+    "Account-Joe": {
+      "profileName": "Daily without Dungeon",
+      "actions": {},
+      "quests": {
+        "Level up any titan artifact once": false
+      }
+    }
   }
 }

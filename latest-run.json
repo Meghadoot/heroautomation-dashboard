@@ -1,33 +1,34 @@
 {
-  "startedAt": "2026-09-26T17:06:25.024Z",
+  "startedAt": "2026-09-26T18:11:05.912Z",
   "date": "2026-09-26",
   "profileName": "HeroAutomation",
-  "forceRun": false,
+  "forceRun": true,
   "totalEnabledAccounts": 3,
-  "attempted": 0,
-  "skipped": 3,
+  "attempted": 1,
+  "skipped": 0,
   "completed": 0,
   "confirmed": 0,
   "timeoutOnly": 0,
-  "failed": 0,
+  "failed": 1,
   "accounts": [
     {
-      "name": "Account-Mjata",
-      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
-      "runtimeSeconds": null
-    },
-    {
       "name": "Account-Amgy",
-      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
-      "runtimeSeconds": null
-    },
-    {
-      "name": "Account-Joe",
-      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
-      "runtimeSeconds": null
+      "startedAt": "2026-09-26T18:11:12.193Z",
+      "loginVerified": true,
+      "runSubmitted": false,
+      "successSignalDetected": false,
+      "logoutVerified": false,
+      "goodwinProfileName": "Daily with Adventure",
+      "goodwinProfileSignature": "42eef24cb099b3e2",
+      "goodwinProfileApplied": false,
+      "result": "FAILED",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/^\\s*Raid adventure\\s*$/i).first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"checkbox\" id=\"PopUpCheckbox_0_6\" class=\"PopUp_checkbox\" data-name=\"autoRaidAdventure\" title=\"Complete an adventure raid with all remaining portal charges\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"PopUpCheckbox_0_6\" title=\"Complete an adventure raid with all remaining portal charges\">Raid adventure</label> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <label for=\"PopUpCheckbox_0_6\" title=\"Complete an adventure raid with all remaining portal charges\">Raid adventure</label> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    18 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <label for=\"PopUpCheckbox_0_6\" title=\"Complete an adventure raid with all remaining portal charges\">Raid adventure</label> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+      "finishedAt": "2026-09-26T18:11:52.686Z",
+      "recoveredToLoginPage": false,
+      "runtimeSeconds": 40
     }
   ],
-  "finishedAt": "2026-09-26T17:06:25.027Z",
-  "overallResult": "ALREADY_COMPLETED_TODAY",
-  "runtimeSeconds": 0
+  "finishedAt": "2026-09-26T18:12:08.706Z",
+  "overallResult": "FAILED",
+  "runtimeSeconds": 63
 }
