@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-26T18:14:05.346Z",
+  "startedAt": "2026-09-26T18:19:59.089Z",
   "date": "2026-09-26",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -11,7 +11,7 @@
   "timeoutOnly": 0,
   "failed": 0,
   "accounts": [],
-  "finishedAt": "2026-09-26T18:14:37.776Z",
+  "finishedAt": "2026-09-26T18:20:31.405Z",
   "overallResult": "FATAL_ERROR",
   "fatalError": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"]') to be visible\u001b[22m\n",
   "runtimeSeconds": 32
