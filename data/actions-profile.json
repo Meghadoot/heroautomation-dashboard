@@ -4,7 +4,7 @@
     "groupAccountsByEffectiveProfile": true,
     "applyOnlyWhenProfileChanges": true,
     "verifyAfterApply": true,
-    "strictLabelMatching": true
+    "strictLabelMatching": false
   },
   "selectors": {
     "doFollowingTitle": "Do the following?",
@@ -32,7 +32,7 @@
   },
   "quests": {
     "Upgrade the skills of heroes 3 times": true,
-    "Complete 3 heroic missions": true,
+    "Complete 3 heroic missions (Aurora chapter 9)": true,
     "Use the exchange of emeralds 1 time": true,
     "Perform 1 summon in the Soul Atrium": true,
     "Send gifts to guildmates": true,
