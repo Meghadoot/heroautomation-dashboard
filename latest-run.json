@@ -1,51 +1,29 @@
 {
-  "startedAt": "2026-09-26T13:46:56.461Z",
+  "startedAt": "2026-09-26T13:56:48.535Z",
   "date": "2026-09-26",
   "profileName": "HeroAutomation",
   "forceRun": false,
   "totalEnabledAccounts": 3,
-  "attempted": 3,
-  "skipped": 0,
-  "completed": 2,
-  "confirmed": 2,
+  "attempted": 1,
+  "skipped": 2,
+  "completed": 1,
+  "confirmed": 1,
   "timeoutOnly": 0,
-  "failed": 1,
+  "failed": 0,
   "accounts": [
     {
-      "name": "Account-Mjata",
-      "startedAt": "2026-09-26T13:47:00.411Z",
-      "loginVerified": true,
-      "runSubmitted": true,
-      "successSignalDetected": true,
-      "logoutVerified": false,
-      "result": "FAILED",
-      "completionReason": "All tasks done",
-      "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-26T13:47:35.921Z",
-      "completedAt": "2026-09-26T13:47:40.686Z",
-      "error": "Hero Wars Menu could not be opened after 3 attempts. locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Log out', { exact: true }).first()\u001b[22m\n",
-      "finishedAt": "2026-09-26T13:48:00.933Z",
-      "recoveredToLoginPage": true,
-      "runtimeSeconds": 61
-    },
-    {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-26T13:48:17.701Z",
-      "loginVerified": true,
-      "runSubmitted": true,
-      "successSignalDetected": true,
-      "logoutVerified": true,
-      "result": "SUCCESS_CONFIRMED",
-      "completionReason": "All tasks done",
-      "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-26T13:49:15.058Z",
-      "completedAt": "2026-09-26T13:49:19.513Z",
-      "finishedAt": "2026-09-26T13:49:30.004Z",
-      "runtimeSeconds": 72
+      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
+      "runtimeSeconds": null
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-09-26T13:49:30.006Z",
+      "result": "SKIPPED_ALREADY_COMPLETED_TODAY",
+      "runtimeSeconds": null
+    },
+    {
+      "name": "Account-Mjata",
+      "startedAt": "2026-09-26T13:56:52.258Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -53,13 +31,13 @@
       "result": "SUCCESS_CONFIRMED",
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-26T13:50:23.651Z",
-      "completedAt": "2026-09-26T13:50:27.854Z",
-      "finishedAt": "2026-09-26T13:50:30.856Z",
-      "runtimeSeconds": 61
+      "signalDetectedAt": "2026-09-26T13:57:14.807Z",
+      "completedAt": "2026-09-26T13:57:19.317Z",
+      "finishedAt": "2026-09-26T13:57:29.456Z",
+      "runtimeSeconds": 37
     }
   ],
-  "finishedAt": "2026-09-26T13:50:30.858Z",
-  "overallResult": "COMPLETED_WITH_FAILURES",
-  "runtimeSeconds": 214
+  "finishedAt": "2026-09-26T13:57:29.458Z",
+  "overallResult": "COMPLETED",
+  "runtimeSeconds": 41
 }
