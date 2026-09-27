@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-09-27T01:31:25.051Z",
+  "startedAt": "2026-09-27T01:33:08.656Z",
   "date": "2026-09-27",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-27T01:31:29.950Z",
+      "startedAt": "2026-09-27T01:33:22.626Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -23,12 +23,12 @@
       "goodwinProfileApplied": false,
       "result": "FAILED",
       "error": "Account-Amgy: \"Clan Raid\" was not found in \"Select location to go to\".",
-      "finishedAt": "2026-09-27T01:31:48.716Z",
+      "finishedAt": "2026-09-27T01:33:51.038Z",
       "recoveredToLoginPage": false,
-      "runtimeSeconds": 19
+      "runtimeSeconds": 28
     }
   ],
-  "finishedAt": "2026-09-27T01:32:19.629Z",
+  "finishedAt": "2026-09-27T01:34:58.023Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 55
+  "runtimeSeconds": 109
 }
