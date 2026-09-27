@@ -165,58 +165,197 @@ function renderAccounts(report) {
     }
 }
 
-function renderComparisonMatrix(tableId, firstColumnLabel, report, profile, category) {
-    const table = document.getElementById(tableId);
-    const headRow = table?.querySelector("thead tr");
-    const tbody = table?.querySelector("tbody");
-    if (!headRow || !tbody) return;
+function renderComparisonMatrix(
+    tableId,
+    firstColumnLabel,
+    report,
+    profile,
+    category
+) {
 
-    const accountNames = getAccountNames(report);
-    const defaultItems = profile[category] || {};
-    const accountProfiles = profile.accountProfiles || {};
-    const allItemNames = new Set(Object.keys(defaultItems));
+    const table =
+        document.getElementById(
+            tableId
+        );
 
-    for (const accountName of accountNames) {
-        const overrides = accountProfiles[accountName]?.[category] || {};
-        Object.keys(overrides).forEach(itemName => allItemNames.add(itemName));
+    const headRow =
+        table?.querySelector(
+            "thead tr"
+        );
+
+    const tbody =
+        table?.querySelector(
+            "tbody"
+        );
+
+    if (!headRow || !tbody) {
+        return;
+    }
+
+    const accountNames =
+        getAccountNames(report);
+
+    const defaultItems =
+        profile[category] || {};
+
+    const accountProfiles =
+        profile.accountProfiles || {};
+
+    const allItemNames =
+        new Set(
+            Object.keys(
+                defaultItems
+            )
+        );
+
+    /*
+     * Add lifecycle stages.
+     */
+    allItemNames.add(
+        "Minions"
+    );
+
+    allItemNames.add(
+        "Dungeon"
+    );
+
+    for (
+        const accountName
+        of accountNames
+    ) {
+
+        const overrides =
+            accountProfiles[
+                accountName
+            ]?.[
+                category
+            ] || {};
+
+        Object.keys(
+            overrides
+        ).forEach(
+            itemName =>
+                allItemNames.add(
+                    itemName
+                )
+        );
     }
 
     headRow.innerHTML = `
-        <th class="matrix-label-column">${escapeHtml(firstColumnLabel)}</th>
-        ${accountNames.map(name => `<th>${escapeHtml(name)}</th>`).join("")}
+
+        <th class="matrix-label-column">
+            ${escapeHtml(
+                firstColumnLabel
+            )}
+        </th>
+
+        ${
+            accountNames
+                .map(
+                    accountName =>
+                        `<th>${escapeHtml(accountName)}</th>`
+                )
+                .join("")
+        }
+
     `;
 
     tbody.innerHTML = "";
 
-    for (const itemName of allItemNames) {
-        const accountCells = accountNames.map(accountName => {
-            const enabled = resolveAccountSetting(profile, accountName, category, itemName);
-return `
-    <td class="matrix-status ${
-        enabled
-            ? "enabled"
-            : "disabled"
-    }">
+    for (
+        const itemName
+        of allItemNames
+    ) {
 
-        ${
-            enabled
-                ? "✅"
-                : "❌"
-        }
+        const accountCells =
+            accountNames
+                .map(
+                    accountName => {
 
-    </td>
-`;
-        }).join("");
+                        const account =
+                            (
+                                report.accounts || []
+                            ).find(
+                                account =>
+                                    account.name ===
+                                    accountName
+                            );
 
-        tbody.insertAdjacentHTML("beforeend", `
-            <tr>
-                <td class="matrix-label-column">${escapeHtml(itemName)}</td>
-                ${accountCells}
-            </tr>
-        `);
+                        let enabled;
+
+                        if (
+                            itemName ===
+                            "Minions"
+                        ) {
+
+                            enabled =
+                                account?.minions
+                                    ?.executed === true;
+
+                        } else if (
+                            itemName ===
+                            "Dungeon"
+                        ) {
+
+                            enabled =
+                                account?.dungeon
+                                    ?.executed === true;
+
+                        } else {
+
+                            enabled =
+                                resolveAccountSetting(
+                                    profile,
+                                    accountName,
+                                    category,
+                                    itemName
+                                );
+                        }
+
+                        return `
+
+                            <td class="matrix-status ${
+                                enabled
+                                    ? "enabled"
+                                    : "disabled"
+                            }">
+
+                                ${
+                                    enabled
+                                        ? "✅"
+                                        : "❌"
+                                }
+
+                            </td>
+
+                        `;
+                    }
+                )
+                .join("");
+
+        tbody.insertAdjacentHTML(
+            "beforeend",
+
+            `
+
+                <tr>
+
+                    <td class="matrix-label-column">
+
+                        ${escapeHtml(
+                            itemName
+                        )}
+
+                    </td>
+
+                    ${accountCells}
+
+                </tr>
+
+            `
+        );
     }
 }
-
 function renderHistory(history) {
     const table = document.getElementById("historyTable");
     const tbody = table?.querySelector("tbody");
