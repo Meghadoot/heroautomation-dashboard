@@ -17,6 +17,19 @@
   "runText": "Run"
 },
 
+"minions": {
+  "enabled": false,
+  "alwaysValidatePerAccount": true,
+  "timeoutMinutes": 20,
+  "shortcutText": "Shortcut to...",
+  "locationDialogText": "Select location to go to",
+  "clanRaidText": "Clan Raid",
+  "minionsText": "Minions",
+  "minionsDialogText": "Pass minions?",
+  "runText": "Run",
+  "completionText": "Minion Raid completed!"
+},
+
   "selectors": {
     "doFollowingTitle": "Do the following?",
     "questSetupControl": "Quest setup",
@@ -61,6 +74,9 @@
       "profileName": "Daily",
       "actions": {},
       "quests": {},
+      "minions": {
+	"enabled": true
+	},
       "dungeon": {
 	"targetTitanite": 41
 	}
@@ -71,6 +87,9 @@
         "Raid adventure": true
       },
       "quests": {},
+      "minions": {
+	"enabled": true
+	},
       "dungeon": {
 	"targetTitanite": 41
 	}
@@ -79,6 +98,9 @@
       "profileName": "Daily without Dungeon",
       "actions": {},
       "quests": {},
+      "minions": {
+	"enabled": true
+	},
       "dungeon": {
 	"targetTitanite": 41
 	}
