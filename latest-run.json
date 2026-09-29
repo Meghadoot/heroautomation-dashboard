@@ -1,19 +1,19 @@
 {
-  "startedAt": "2026-09-29T13:30:04.819Z",
+  "startedAt": "2026-09-29T21:27:17.271Z",
   "date": "2026-09-29",
   "profileName": "HeroAutomation",
-  "forceRun": false,
+  "forceRun": true,
   "totalEnabledAccounts": 3,
-  "attempted": 2,
+  "attempted": 3,
   "skipped": 0,
-  "completed": 1,
-  "confirmed": 1,
+  "completed": 2,
+  "confirmed": 2,
   "timeoutOnly": 0,
   "failed": 1,
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-29T13:30:14.089Z",
+      "startedAt": "2026-09-29T21:27:38.597Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-09-29T13:31:21.899Z"
+        "completedAt": "2026-09-29T21:28:17.154Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,35 +38,91 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-09-29T13:36:31.269Z"
+        "completedAt": "2026-09-29T21:28:24.556Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-09-29T13:37:07.055Z",
-      "completedAt": "2026-09-29T13:37:10.612Z",
-      "finishedAt": "2026-09-29T13:37:18.107Z",
-      "runtimeSeconds": 424
+      "signalDetectedAt": "2026-09-29T21:28:43.243Z",
+      "completedAt": "2026-09-29T21:28:48.302Z",
+      "finishedAt": "2026-09-29T21:28:54.777Z",
+      "runtimeSeconds": 76
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-09-29T13:37:18.109Z",
+      "startedAt": "2026-09-29T21:28:54.781Z",
+      "loginVerified": true,
+      "runSubmitted": true,
+      "successSignalDetected": true,
+      "logoutVerified": true,
+      "goodwinProfileName": "Daily",
+      "goodwinProfileSignature": "b4ac87d666598fff",
+      "goodwinProfileApplied": true,
+      "result": "SUCCESS_CONFIRMED",
+      "minions": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "location": "Clan Raid",
+        "completionText": "Minion Raid completed!",
+        "completedAt": "2026-09-29T21:29:29.609Z"
+      },
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-09-29T21:33:23.829Z"
+      },
+      "goodwinActionChanges": 0,
+      "goodwinQuestChanges": 0,
+      "completionReason": "All tasks done",
+      "completionSignal": "ALL_TASKS_DONE",
+      "signalDetectedAt": "2026-09-29T21:33:57.310Z",
+      "completedAt": "2026-09-29T21:34:01.930Z",
+      "finishedAt": "2026-09-29T21:34:08.065Z",
+      "runtimeSeconds": 313
+    },
+    {
+      "name": "Account-Joe",
+      "startedAt": "2026-09-29T21:34:08.070Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
       "logoutVerified": false,
-      "goodwinProfileName": "Daily",
+      "goodwinProfileName": "Daily without Dungeon",
       "goodwinProfileSignature": "b4ac87d666598fff",
       "goodwinProfileApplied": false,
       "result": "FAILED",
-      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^\\s*Shortcut to\\.\\.\\.\\s*$/i).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_buttonText\">Shortcut to...</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is not stable\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
-      "finishedAt": "2026-09-29T13:38:19.917Z",
+      "minions": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "location": "Clan Raid",
+        "completionText": "Minion Raid completed!",
+        "completedAt": "2026-09-29T21:34:48.674Z"
+      },
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-09-29T21:39:59.485Z"
+      },
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.scriptMenu_button').filter({ has: locator('.scriptMenu_buttonText').filter({ hasText: /^Do All$/ }) }).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_button\" title=\"Perform multiple actions of your choice\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "finishedAt": "2026-09-29T21:40:09.708Z",
       "recoveredToLoginPage": false,
-      "runtimeSeconds": 62
+      "runtimeSeconds": 362
     }
   ],
-  "finishedAt": "2026-09-29T13:39:25.684Z",
+  "finishedAt": "2026-09-29T21:41:15.846Z",
   "overallResult": "COMPLETED_WITH_FAILURES",
-  "runtimeSeconds": 561
+  "runtimeSeconds": 839
 }
