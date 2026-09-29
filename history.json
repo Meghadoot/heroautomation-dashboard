@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-29T13:39:25.723Z",
+    "result": "COMPLETED_WITH_FAILURES",
+    "completed": 1,
+    "failed": 1
+  },
+  {
     "date": "2026-09-28T20:40:46.728Z",
     "result": "COMPLETED",
     "completed": 3,
