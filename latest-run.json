@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-30T13:30:04.704Z",
-  "date": "2026-09-30",
+  "startedAt": "2026-10-01T13:30:05.271Z",
+  "date": "2026-10-01",
   "profileName": "HeroAutomation",
   "forceRun": false,
   "totalEnabledAccounts": 3,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-09-30T13:30:18.399Z",
+      "startedAt": "2026-10-01T13:30:20.907Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -22,21 +22,21 @@
       "goodwinProfileSignature": "1b33d58c9de8e749",
       "goodwinProfileApplied": false,
       "result": "FAILED",
-      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^\\s*Shortcut to\\.\\.\\.\\s*$/i).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_buttonText\">Shortcut to...</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    12 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n",
-      "finishedAt": "2026-09-30T13:30:49.132Z",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^\\s*Shortcut to\\.\\.\\.\\s*$/i).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_buttonText\">Shortcut to...</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+      "finishedAt": "2026-10-01T13:30:52.903Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 31
+      "runtimeSeconds": 32
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-09-30T13:30:53.101Z",
+      "startedAt": "2026-10-01T13:30:57.711Z",
       "loginVerified": true,
-      "runSubmitted": false,
-      "successSignalDetected": false,
+      "runSubmitted": true,
+      "successSignalDetected": true,
       "logoutVerified": false,
       "goodwinProfileName": "Daily",
       "goodwinProfileSignature": "b4ac87d666598fff",
-      "goodwinProfileApplied": false,
+      "goodwinProfileApplied": true,
       "result": "FAILED",
       "minions": {
         "enabled": true,
@@ -44,15 +44,31 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-09-30T13:31:24.671Z"
+        "completedAt": "2026-10-01T13:31:22.728Z"
       },
-      "error": "page.waitForTimeout: Target page, context or browser has been closed",
-      "finishedAt": "2026-09-30T13:36:45.894Z",
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-10-01T13:35:42.369Z"
+      },
+      "goodwinActionChanges": 0,
+      "goodwinQuestChanges": 0,
+      "completionReason": "All tasks done",
+      "completionSignal": "ALL_TASKS_DONE",
+      "signalDetectedAt": "2026-10-01T13:36:03.096Z",
+      "completedAt": "2026-10-01T13:36:06.773Z",
+      "error": "Hero Wars Menu could not be opened after 3 attempts. locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Menu', { exact: true }).first()\u001b[22m\n\u001b[2m    - locator resolved to <span class=\"user-control-menu-button-label\">↵                                                …</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "finishedAt": "2026-10-01T13:36:41.965Z",
       "recoveredToLoginPage": false,
-      "runtimeSeconds": 353
+      "runtimeSeconds": 344
     }
   ],
-  "finishedAt": "2026-09-30T13:36:45.901Z",
+  "finishedAt": "2026-10-01T13:37:47.973Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 401
+  "runtimeSeconds": 463
 }
