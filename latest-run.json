@@ -1,8 +1,8 @@
 {
-  "startedAt": "2026-10-01T21:04:56.942Z",
-  "date": "2026-10-01",
+  "startedAt": "2026-10-02T13:30:05.327Z",
+  "date": "2026-10-02",
   "profileName": "HeroAutomation",
-  "forceRun": true,
+  "forceRun": false,
   "totalEnabledAccounts": 3,
   "attempted": 3,
   "skipped": 0,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-01T21:05:13.852Z",
+      "startedAt": "2026-10-02T13:30:16.357Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-01T21:05:49.848Z"
+        "completedAt": "2026-10-02T13:30:49.426Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,20 +38,20 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-01T21:11:03.559Z"
+        "completedAt": "2026-10-02T13:35:42.373Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-01T21:11:30.280Z",
-      "completedAt": "2026-10-01T21:11:34.320Z",
-      "finishedAt": "2026-10-01T21:11:39.286Z",
-      "runtimeSeconds": 385
+      "signalDetectedAt": "2026-10-02T13:36:10.678Z",
+      "completedAt": "2026-10-02T13:36:15.892Z",
+      "finishedAt": "2026-10-02T13:36:21.103Z",
+      "runtimeSeconds": 365
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-01T21:11:39.297Z",
+      "startedAt": "2026-10-02T13:36:21.105Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -66,7 +66,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-01T21:12:15.831Z"
+        "completedAt": "2026-10-02T13:36:53.968Z"
       },
       "dungeon": {
         "enabled": true,
@@ -76,20 +76,20 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-01T21:12:24.197Z"
+        "completedAt": "2026-10-02T13:40:53.453Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-01T21:12:37.853Z",
-      "completedAt": "2026-10-01T21:12:42.737Z",
-      "finishedAt": "2026-10-01T21:12:47.701Z",
-      "runtimeSeconds": 68
+      "signalDetectedAt": "2026-10-02T13:41:14.197Z",
+      "completedAt": "2026-10-02T13:41:17.738Z",
+      "finishedAt": "2026-10-02T13:41:23.768Z",
+      "runtimeSeconds": 303
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-01T21:12:47.705Z",
+      "startedAt": "2026-10-02T13:41:23.773Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -104,7 +104,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-01T21:13:25.358Z"
+        "completedAt": "2026-10-02T13:42:00.250Z"
       },
       "dungeon": {
         "enabled": true,
@@ -114,17 +114,17 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-01T21:17:03.677Z"
+        "completedAt": "2026-10-02T13:46:17.165Z"
       },
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-01T21:17:15.809Z",
-      "completedAt": "2026-10-01T21:17:19.656Z",
-      "finishedAt": "2026-10-01T21:17:23.166Z",
-      "runtimeSeconds": 275
+      "signalDetectedAt": "2026-10-02T13:46:31.008Z",
+      "completedAt": "2026-10-02T13:46:35.720Z",
+      "finishedAt": "2026-10-02T13:46:41.234Z",
+      "runtimeSeconds": 317
     }
   ],
-  "finishedAt": "2026-10-01T21:17:23.169Z",
+  "finishedAt": "2026-10-02T13:46:41.238Z",
   "overallResult": "COMPLETED",
-  "runtimeSeconds": 746
+  "runtimeSeconds": 996
 }
