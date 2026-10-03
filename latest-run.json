@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-03T20:58:54.340Z",
+  "startedAt": "2026-10-03T21:00:41.140Z",
   "date": "2026-10-03",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -11,8 +11,8 @@
   "timeoutOnly": 0,
   "failed": 0,
   "accounts": [],
-  "finishedAt": "2026-10-03T20:59:37.661Z",
+  "finishedAt": "2026-10-03T21:01:31.706Z",
   "overallResult": "FATAL_ERROR",
   "fatalError": "Hero Wars Menu could not be opened after 3 attempts. locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Log out', { exact: true }).first()\u001b[22m\n",
-  "runtimeSeconds": 43
+  "runtimeSeconds": 51
 }
