@@ -1,19 +1,19 @@
 {
-  "startedAt": "2026-10-03T23:08:00.170Z",
+  "startedAt": "2026-10-03T23:29:47.833Z",
   "date": "2026-10-04",
   "profileName": "HeroAutomation",
   "forceRun": true,
   "totalEnabledAccounts": 3,
-  "attempted": 1,
+  "attempted": 3,
   "skipped": 0,
   "completed": 0,
   "confirmed": 0,
   "timeoutOnly": 0,
-  "failed": 1,
+  "failed": 3,
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-03T23:08:21.631Z",
+      "startedAt": "2026-10-03T23:29:52.684Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -22,13 +22,99 @@
       "goodwinProfileSignature": "1b33d58c9de8e749",
       "goodwinProfileApplied": false,
       "result": "FAILED",
-      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^\\s*Shortcut to\\.\\.\\.\\s*$/i).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_buttonText\">Shortcut to...</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div title=\"\" class=\"scriptMenu_header\">…</div> from <div title=\"\" class=\"scriptMenu_header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div title=\"\" class=\"scriptMenu_header\">…</div> from <div title=\"\" class=\"scriptMenu_header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - performing click action\u001b[22m\n\u001b[2m       - <div title=\"\" class=\"scriptMenu_header\">…</div> from <div title=\"\" class=\"scriptMenu_header\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
-      "finishedAt": "2026-10-03T23:08:49.973Z",
-      "recoveredToLoginPage": false,
-      "runtimeSeconds": 28
+      "minions": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "location": "Clan Raid",
+        "completionText": "Minion Raid completed!",
+        "completedAt": "2026-10-03T23:30:16.540Z"
+      },
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-10-03T23:30:19.989Z"
+      },
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
+      "finishedAt": "2026-10-03T23:30:31.112Z",
+      "recoveredToLoginPage": true,
+      "runtimeSeconds": 38
+    },
+    {
+      "name": "Account-Mjata",
+      "startedAt": "2026-10-03T23:30:37.470Z",
+      "loginVerified": true,
+      "runSubmitted": false,
+      "successSignalDetected": false,
+      "logoutVerified": false,
+      "goodwinProfileName": "Daily",
+      "goodwinProfileSignature": "b4ac87d666598fff",
+      "goodwinProfileApplied": false,
+      "result": "FAILED",
+      "minions": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "location": "Clan Raid",
+        "completionText": "Minion Raid completed!",
+        "completedAt": "2026-10-03T23:31:01.353Z"
+      },
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-10-03T23:35:52.031Z"
+      },
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
+      "finishedAt": "2026-10-03T23:36:03.200Z",
+      "recoveredToLoginPage": true,
+      "runtimeSeconds": 326
+    },
+    {
+      "name": "Account-Joe",
+      "startedAt": "2026-10-03T23:36:10.024Z",
+      "loginVerified": true,
+      "runSubmitted": false,
+      "successSignalDetected": false,
+      "logoutVerified": false,
+      "goodwinProfileName": "Daily without Dungeon",
+      "goodwinProfileSignature": "b4ac87d666598fff",
+      "goodwinProfileApplied": false,
+      "result": "FAILED",
+      "minions": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "location": "Clan Raid",
+        "completionText": "Minion Raid completed!",
+        "completedAt": "2026-10-03T23:36:35.143Z"
+      },
+      "dungeon": {
+        "enabled": true,
+        "inspectedForAccount": true,
+        "executed": true,
+        "targetTitanite": 41,
+        "observedBefore": "41",
+        "verifiedAfter": "41",
+        "completionText": "Dungeon completed!",
+        "completedAt": "2026-10-03T23:39:27.598Z"
+      },
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
+      "finishedAt": "2026-10-03T23:39:38.827Z",
+      "recoveredToLoginPage": true,
+      "runtimeSeconds": 209
     }
   ],
-  "finishedAt": "2026-10-03T23:08:54.060Z",
+  "finishedAt": "2026-10-03T23:39:45.134Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 54
+  "runtimeSeconds": 597
 }
