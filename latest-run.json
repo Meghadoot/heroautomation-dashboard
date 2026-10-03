@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-03T23:29:47.833Z",
+  "startedAt": "2026-10-03T23:52:19.963Z",
   "date": "2026-10-04",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-03T23:29:52.684Z",
+      "startedAt": "2026-10-03T23:52:25.085Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-03T23:30:16.540Z"
+        "completedAt": "2026-10-03T23:52:51.878Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,16 +38,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-03T23:30:19.989Z"
+        "completedAt": "2026-10-03T23:52:55.265Z"
       },
-      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
-      "finishedAt": "2026-10-03T23:30:31.112Z",
+      "error": "Quest dialog not detected. Visible popup text: Set quests to do:\nUpgrade the skills of heroes 3 times\nComplete 3 heroic missions (Aurora chapter 9)\nUse the exchange of emeralds 1 time\nPerform 1 summon in the Soul Atrium\nSend gifts to guildmates\nUse an experience potion\nUpgrade Gift of the Elements by 1 level\nLevel up any hero artifact once\nLevel up any titan artifact once\nOpen the Orb of Titan Artifacts\nUpgrade any Skin of any hero 1 time\nUse Summon Pets 1 time\nGet 150 Guild Activity Points\nSave",
+      "finishedAt": "2026-10-03T23:52:58.267Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 38
+      "runtimeSeconds": 33
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-03T23:30:37.470Z",
+      "startedAt": "2026-10-03T23:53:03.881Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -62,7 +62,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-03T23:31:01.353Z"
+        "completedAt": "2026-10-03T23:53:27.613Z"
       },
       "dungeon": {
         "enabled": true,
@@ -72,16 +72,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-03T23:35:52.031Z"
+        "completedAt": "2026-10-03T23:53:30.815Z"
       },
-      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
-      "finishedAt": "2026-10-03T23:36:03.200Z",
+      "error": "Quest dialog not detected. Visible popup text: Set quests to do:\nUpgrade the skills of heroes 3 times\nComplete 3 heroic missions (Aurora chapter 9)\nUse the exchange of emeralds 1 time\nPerform 1 summon in the Soul Atrium\nSend gifts to guildmates\nUse an experience potion\nUpgrade Gift of the Elements by 1 level\nLevel up any hero artifact once\nLevel up any titan artifact once\nOpen the Orb of Titan Artifacts\nUpgrade any Skin of any hero 1 time\nUse Summon Pets 1 time\nGet 150 Guild Activity Points\nSave",
+      "finishedAt": "2026-10-03T23:53:33.060Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 326
+      "runtimeSeconds": 29
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-03T23:36:10.024Z",
+      "startedAt": "2026-10-03T23:53:38.966Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -96,7 +96,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-03T23:36:35.143Z"
+        "completedAt": "2026-10-03T23:54:12.228Z"
       },
       "dungeon": {
         "enabled": true,
@@ -106,15 +106,15 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-03T23:39:27.598Z"
+        "completedAt": "2026-10-03T23:54:15.442Z"
       },
-      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/set\\s+quests?\\s+to\\s+do/i).first() to be visible\u001b[22m\n",
-      "finishedAt": "2026-10-03T23:39:38.827Z",
+      "error": "Quest dialog not detected. Visible popup text: Set quests to do:\nUpgrade the skills of heroes 3 times\nComplete 3 heroic missions (Aurora chapter 9)\nUse the exchange of emeralds 1 time\nPerform 1 summon in the Soul Atrium\nSend gifts to guildmates\nUse an experience potion\nUpgrade Gift of the Elements by 1 level\nLevel up any hero artifact once\nLevel up any titan artifact once\nOpen the Orb of Titan Artifacts\nUpgrade any Skin of any hero 1 time\nUse Summon Pets 1 time\nGet 150 Guild Activity Points\nSave",
+      "finishedAt": "2026-10-03T23:54:18.043Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 209
+      "runtimeSeconds": 39
     }
   ],
-  "finishedAt": "2026-10-03T23:39:45.134Z",
+  "finishedAt": "2026-10-03T23:54:24.013Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 597
+  "runtimeSeconds": 124
 }
