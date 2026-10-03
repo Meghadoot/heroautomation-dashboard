@@ -1,52 +1,18 @@
 {
-  "startedAt": "2026-10-03T17:42:34.717Z",
+  "startedAt": "2026-10-03T20:31:17.354Z",
   "date": "2026-10-03",
   "profileName": "HeroAutomation",
-  "forceRun": false,
+  "forceRun": true,
   "totalEnabledAccounts": 3,
-  "attempted": 1,
+  "attempted": 0,
   "skipped": 0,
   "completed": 0,
   "confirmed": 0,
   "timeoutOnly": 0,
-  "failed": 1,
-  "accounts": [
-    {
-      "name": "Account-Amgy",
-      "startedAt": "2026-10-03T17:42:41.811Z",
-      "loginVerified": true,
-      "runSubmitted": false,
-      "successSignalDetected": false,
-      "logoutVerified": false,
-      "goodwinProfileName": "Daily with Adventure",
-      "goodwinProfileSignature": "1b33d58c9de8e749",
-      "goodwinProfileApplied": false,
-      "result": "FAILED",
-      "minions": {
-        "enabled": true,
-        "inspectedForAccount": true,
-        "executed": true,
-        "location": "Clan Raid",
-        "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-03T17:43:08.285Z"
-      },
-      "dungeon": {
-        "enabled": true,
-        "inspectedForAccount": true,
-        "executed": true,
-        "targetTitanite": 41,
-        "observedBefore": "41",
-        "verifiedAfter": "41",
-        "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-03T17:47:54.330Z"
-      },
-      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.scriptMenu_button').filter({ has: locator('.scriptMenu_buttonText').filter({ hasText: /^Do All$/ }) }).first()\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"scriptMenu_button\" title=\"Perform multiple actions of your choice\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"scriptMenu_buttonText\">Dungeon</div> from <div class=\"scriptMenu_button\" title=\"Go through the dungeon↵Titanite collected: 54/150↵Prediction Cards: 0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"scriptMenu_buttonText\">Dungeon</div> from <div class=\"scriptMenu_button\" title=\"Go through the dungeon↵Titanite collected: 54/150↵Prediction Cards: 0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    11 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - performing click action\u001b[22m\n\u001b[2m       - <div class=\"scriptMenu_buttonText\">Dungeon</div> from <div class=\"scriptMenu_button\" title=\"Go through the dungeon↵Titanite collected: 54/150↵Prediction Cards: 0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - <div class=\"layout-header-wrapper\">…</div> from <div id=\"app\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  3 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"scriptMenu_buttonText\">Dungeon</div> from <div class=\"scriptMenu_button\" title=\"Go through the dungeon↵Titanite collected: 54/150↵Prediction Cards: 0\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
-      "finishedAt": "2026-10-03T17:48:04.532Z",
-      "recoveredToLoginPage": false,
-      "runtimeSeconds": 323
-    }
-  ],
-  "finishedAt": "2026-10-03T17:48:55.410Z",
-  "overallResult": "FAILED",
-  "runtimeSeconds": 381
+  "failed": 0,
+  "accounts": [],
+  "finishedAt": "2026-10-03T20:58:39.288Z",
+  "overallResult": "FATAL_ERROR",
+  "fatalError": "page.setViewportSize: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\mgardi\\AppData\\Local\\ms-playwright\\firefox-1543\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\HeroAutomation\\firefox-profile-playwright -juggler-pipe about:blank\n<launched> pid=31008\n[pid=31008][out] \n[pid=31008][out] Juggler listening to the pipe\n[pid=31008][out] console.error: \"Warning: unrecognized command line flag\" \"-wait-for-browser\"\n[pid=31008][err] [ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"Unspecified error\" }\n[pid=31008][err] JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data\n[pid=31008][err] [ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"Unspecified error\" }\n[pid=31008][err] [ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"Unspecified error\" }\n[pid=31008][out] console.error: (new ServerInfoError(\"Server response is invalid SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data\", \"resource://services-settings/Attachments.sys.mjs\", 40))\n[pid=31008][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false\n[pid=31008][out] console.error: (new NotFoundError(\"Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump\", \"resource://services-settings/Attachments.sys.mjs\", 48))\n[pid=31008][out] console.warn: \"Unable to find the attachment for\" \"fa0fc42c-d91d-fca7-34eb-806ff46062dc\"\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][out] console.error: (new Error(\"Push service not active\", \"resource://gre/modules/PushService.sys.mjs\", 138))\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.\n[pid=31008][err] JavaScript warning: , line 0: After reporting 32, no further warnings will be reported for this WebGL context.\n[pid=31008][err] JavaScript warning: https://heroeswb-a-cdn.nextersglobal.com/envs/production/wb/client/heroes.6d140fe12256da512f9a05dd12304804.js, line 11249: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=31008][out] console.error: \"Could not download new icon\" (new ServerInfoError(\"Server response is invalid SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data\", \"resource://services-settings/Attachments.sys.mjs\", 40))\n[pid=31008] <gracefully close start>",
+  "runtimeSeconds": 1642
 }
