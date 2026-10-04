@@ -78,7 +78,7 @@
 	"enabled": true
 	},
       "dungeon": {
-	"targetTitanite": 41
+	"targetTitanite": 51
 	}
     },
     "Account-Amgy": {
@@ -91,7 +91,7 @@
 	"enabled": true
 	},
       "dungeon": {
-	"targetTitanite": 41
+	"targetTitanite": 51
 	}
     },
     "Account-Joe": {
@@ -102,7 +102,7 @@
 	"enabled": true
 	},
       "dungeon": {
-	"targetTitanite": 41
+	"targetTitanite": 51
 	}
     }
   }
