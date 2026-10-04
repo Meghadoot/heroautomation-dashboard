@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-04T00:01:38.531Z",
+  "startedAt": "2026-10-04T00:30:54.364Z",
   "date": "2026-10-04",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-04T00:01:43.782Z",
+      "startedAt": "2026-10-04T00:30:59.413Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:02:07.381Z"
+        "completedAt": "2026-10-04T00:31:27.151Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,16 +38,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:02:11.293Z"
+        "completedAt": "2026-10-04T00:31:30.795Z"
       },
-      "error": "Quest setup control was not found. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
-      "finishedAt": "2026-10-04T00:02:12.086Z",
+      "error": "Quest dialog not detected. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
+      "finishedAt": "2026-10-04T00:31:42.737Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 28
+      "runtimeSeconds": 43
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-04T00:02:19.727Z",
+      "startedAt": "2026-10-04T00:31:48.842Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -62,7 +62,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:02:53.094Z"
+        "completedAt": "2026-10-04T00:32:10.867Z"
       },
       "dungeon": {
         "enabled": true,
@@ -72,16 +72,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:02:56.625Z"
+        "completedAt": "2026-10-04T00:32:14.325Z"
       },
-      "error": "Quest setup control was not found. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
-      "finishedAt": "2026-10-04T00:02:57.188Z",
+      "error": "Quest dialog not detected. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
+      "finishedAt": "2026-10-04T00:32:28.295Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 37
+      "runtimeSeconds": 39
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-04T00:03:03.296Z",
+      "startedAt": "2026-10-04T00:32:33.342Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -96,7 +96,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:03:32.598Z"
+        "completedAt": "2026-10-04T00:32:55.646Z"
       },
       "dungeon": {
         "enabled": true,
@@ -106,15 +106,15 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:03:36.093Z"
+        "completedAt": "2026-10-04T00:32:59.068Z"
       },
-      "error": "Quest setup control was not found. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
-      "finishedAt": "2026-10-04T00:03:36.704Z",
+      "error": "Quest dialog not detected. Visible popup text: Do the following?\nPass the Tower\nCollect 3 chests in the Outland\nCollect 12 chests in the Outland (540 emeralds)\nCollect 21 chests in the Outland (1740 emeralds)\nCheck out the Expeditions\nCheck the Astral Seer\nRaid adventure\nCollect mail\nRun daily quests\nCollect daily rewards\nCollect rewards for quests\nRun ToE\nFarm Dungeon\nShow rewards\nSynchronization\nReload Game\n⚙️Quest setup\nRun",
+      "finishedAt": "2026-10-04T00:33:10.859Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 33
+      "runtimeSeconds": 38
     }
   ],
-  "finishedAt": "2026-10-04T00:03:42.774Z",
+  "finishedAt": "2026-10-04T00:33:16.506Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 124
+  "runtimeSeconds": 142
 }
