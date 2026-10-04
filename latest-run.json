@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-04T00:50:09.300Z",
+  "startedAt": "2026-10-04T01:02:33.423Z",
   "date": "2026-10-04",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-04T00:50:14.362Z",
+      "startedAt": "2026-10-04T01:02:38.335Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:50:39.058Z"
+        "completedAt": "2026-10-04T01:03:01.461Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,16 +38,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:50:43.032Z"
+        "completedAt": "2026-10-04T01:03:05.611Z"
       },
-      "error": "Quest dialog remained visible after Save was selected.",
-      "finishedAt": "2026-10-04T00:50:56.229Z",
+      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
+      "finishedAt": "2026-10-04T01:03:09.887Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 42
+      "runtimeSeconds": 32
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-04T00:51:02.227Z",
+      "startedAt": "2026-10-04T01:03:16.455Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -62,7 +62,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:51:25.445Z"
+        "completedAt": "2026-10-04T01:03:39.989Z"
       },
       "dungeon": {
         "enabled": true,
@@ -72,16 +72,16 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:51:28.854Z"
+        "completedAt": "2026-10-04T01:03:43.574Z"
       },
-      "error": "Quest dialog remained visible after Save was selected.",
-      "finishedAt": "2026-10-04T00:51:40.965Z",
+      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
+      "finishedAt": "2026-10-04T01:03:46.867Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 39
+      "runtimeSeconds": 30
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-04T00:51:46.582Z",
+      "startedAt": "2026-10-04T01:03:52.374Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -96,7 +96,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T00:52:08.237Z"
+        "completedAt": "2026-10-04T01:04:21.512Z"
       },
       "dungeon": {
         "enabled": true,
@@ -106,15 +106,15 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T00:52:11.469Z"
+        "completedAt": "2026-10-04T01:04:24.895Z"
       },
-      "error": "Quest dialog remained visible after Save was selected.",
-      "finishedAt": "2026-10-04T00:52:24.113Z",
+      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
+      "finishedAt": "2026-10-04T01:04:27.958Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 38
+      "runtimeSeconds": 36
     }
   ],
-  "finishedAt": "2026-10-04T00:52:30.551Z",
+  "finishedAt": "2026-10-04T01:04:33.531Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 141
+  "runtimeSeconds": 120
 }
