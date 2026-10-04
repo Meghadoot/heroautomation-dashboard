@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-04T01:02:33.423Z",
+  "startedAt": "2026-10-04T01:29:44.083Z",
   "date": "2026-10-04",
   "profileName": "HeroAutomation",
   "forceRun": true,
@@ -13,14 +13,14 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-04T01:02:38.335Z",
+      "startedAt": "2026-10-04T01:29:49.167Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
       "logoutVerified": false,
       "goodwinProfileName": "Daily with Adventure",
       "goodwinProfileSignature": "1b33d58c9de8e749",
-      "goodwinProfileApplied": false,
+      "goodwinProfileApplied": true,
       "result": "FAILED",
       "minions": {
         "enabled": true,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T01:03:01.461Z"
+        "completedAt": "2026-10-04T01:30:13.663Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,23 +38,25 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T01:03:05.611Z"
+        "completedAt": "2026-10-04T01:30:17.321Z"
       },
-      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
-      "finishedAt": "2026-10-04T01:03:09.887Z",
+      "goodwinActionChanges": 0,
+      "goodwinQuestChanges": 0,
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Run', { exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"PopUp_text PopUp_buttonText\">Run</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - performing click action\u001b[22m\n\u001b[2m       - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "finishedAt": "2026-10-04T01:30:31.415Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 32
+      "runtimeSeconds": 42
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-04T01:03:16.455Z",
+      "startedAt": "2026-10-04T01:30:36.836Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
       "logoutVerified": false,
       "goodwinProfileName": "Daily",
       "goodwinProfileSignature": "b4ac87d666598fff",
-      "goodwinProfileApplied": false,
+      "goodwinProfileApplied": true,
       "result": "FAILED",
       "minions": {
         "enabled": true,
@@ -62,7 +64,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T01:03:39.989Z"
+        "completedAt": "2026-10-04T01:30:58.769Z"
       },
       "dungeon": {
         "enabled": true,
@@ -72,16 +74,18 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T01:03:43.574Z"
+        "completedAt": "2026-10-04T01:31:02.259Z"
       },
-      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
-      "finishedAt": "2026-10-04T01:03:46.867Z",
+      "goodwinActionChanges": 0,
+      "goodwinQuestChanges": 0,
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Run', { exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"PopUp_text PopUp_buttonText\">Run</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    6 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+      "finishedAt": "2026-10-04T01:31:15.506Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 30
+      "runtimeSeconds": 39
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-04T01:03:52.374Z",
+      "startedAt": "2026-10-04T01:31:21.154Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -96,7 +100,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T01:04:21.512Z"
+        "completedAt": "2026-10-04T01:31:54.063Z"
       },
       "dungeon": {
         "enabled": true,
@@ -106,15 +110,15 @@
         "observedBefore": "41",
         "verifiedAfter": "41",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T01:04:24.895Z"
+        "completedAt": "2026-10-04T01:31:57.669Z"
       },
-      "error": "Quest settings were saved, but the Do the following? popup was not restored.",
-      "finishedAt": "2026-10-04T01:04:27.958Z",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Run', { exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <div class=\"PopUp_text PopUp_buttonText\">Run</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - performing click action\u001b[22m\n\u001b[2m       - <div class=\"PopUp_back\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n",
+      "finishedAt": "2026-10-04T01:32:07.889Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 36
+      "runtimeSeconds": 47
     }
   ],
-  "finishedAt": "2026-10-04T01:04:33.531Z",
+  "finishedAt": "2026-10-04T01:32:13.352Z",
   "overallResult": "FAILED",
-  "runtimeSeconds": 120
+  "runtimeSeconds": 149
 }
