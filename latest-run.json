@@ -1,19 +1,19 @@
 {
-  "startedAt": "2026-10-04T17:52:59.119Z",
-  "date": "2026-10-04",
+  "startedAt": "2026-10-05T08:35:15.238Z",
+  "date": "2026-10-05",
   "profileName": "HeroAutomation",
   "forceRun": true,
   "totalEnabledAccounts": 3,
   "attempted": 3,
   "skipped": 0,
-  "completed": 3,
-  "confirmed": 3,
+  "completed": 2,
+  "confirmed": 2,
   "timeoutOnly": 0,
-  "failed": 0,
+  "failed": 1,
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-04T17:53:04.732Z",
+      "startedAt": "2026-10-05T08:35:21.323Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -28,30 +28,30 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T17:53:31.974Z"
+        "completedAt": "2026-10-05T08:35:56.181Z"
       },
       "dungeon": {
         "enabled": true,
         "inspectedForAccount": true,
         "executed": true,
         "targetTitanite": 51,
-        "observedBefore": "41",
+        "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T17:57:36.865Z"
+        "completedAt": "2026-10-05T08:40:32.043Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-04T17:58:06.930Z",
-      "completedAt": "2026-10-04T17:58:10.790Z",
-      "finishedAt": "2026-10-04T17:58:15.810Z",
-      "runtimeSeconds": 311
+      "signalDetectedAt": "2026-10-05T08:40:59.552Z",
+      "completedAt": "2026-10-05T08:41:04.065Z",
+      "finishedAt": "2026-10-05T08:41:10.530Z",
+      "runtimeSeconds": 349
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-04T17:58:15.812Z",
+      "startedAt": "2026-10-05T08:41:10.534Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -66,65 +66,67 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T17:58:36.944Z"
+        "completedAt": "2026-10-05T08:41:52.028Z"
       },
       "dungeon": {
         "enabled": true,
         "inspectedForAccount": true,
         "executed": true,
         "targetTitanite": 51,
-        "observedBefore": "41",
+        "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T18:03:28.531Z"
+        "completedAt": "2026-10-05T08:46:38.470Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-04T18:03:48.504Z",
-      "completedAt": "2026-10-04T18:03:53.496Z",
-      "finishedAt": "2026-10-04T18:03:58.755Z",
-      "runtimeSeconds": 343
+      "signalDetectedAt": "2026-10-05T08:46:58.269Z",
+      "completedAt": "2026-10-05T08:47:02.025Z",
+      "finishedAt": "2026-10-05T08:47:07.467Z",
+      "runtimeSeconds": 357
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-04T18:03:58.757Z",
+      "startedAt": "2026-10-05T08:47:07.469Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
-      "logoutVerified": true,
+      "logoutVerified": false,
       "goodwinProfileName": "Daily without Dungeon",
       "goodwinProfileSignature": "b4ac87d666598fff",
       "goodwinProfileApplied": false,
-      "result": "SUCCESS_CONFIRMED",
+      "result": "FAILED",
       "minions": {
         "enabled": true,
         "inspectedForAccount": true,
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-04T18:04:21.193Z"
+        "completedAt": "2026-10-05T08:47:38.742Z"
       },
       "dungeon": {
         "enabled": true,
         "inspectedForAccount": true,
         "executed": true,
         "targetTitanite": 51,
-        "observedBefore": "41",
+        "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-04T18:04:24.289Z"
+        "completedAt": "2026-10-05T08:51:19.025Z"
       },
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-04T18:04:33.207Z",
-      "completedAt": "2026-10-04T18:04:36.722Z",
-      "finishedAt": "2026-10-04T18:04:42.323Z",
-      "runtimeSeconds": 44
+      "signalDetectedAt": "2026-10-05T08:51:37.918Z",
+      "completedAt": "2026-10-05T08:51:41.770Z",
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"]') to be visible\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://www.hero-wars.com/?cp=%2260178%3D1%22&abded=1&splitId=109&splitName=organic_test_2&variantName=Test\"\u001b[22m\n\u001b[2m    - locator resolved to hidden <input type=\"email\" name=\"email\" class=\"input\" v-model=\"email\" autocomplete=\"email\" v-on:keyup.enter=\"clickReset\" v-on:change=\"checkResetFields\" v-on:keyup=\"clearErrors('emailError')\"/>\u001b[22m\n",
+      "finishedAt": "2026-10-05T09:03:44.319Z",
+      "recoveredToLoginPage": false,
+      "runtimeSeconds": 997
     }
   ],
-  "finishedAt": "2026-10-04T18:04:42.325Z",
-  "overallResult": "COMPLETED",
-  "runtimeSeconds": 703
+  "finishedAt": "2026-10-05T09:21:34.037Z",
+  "overallResult": "COMPLETED_WITH_FAILURES",
+  "runtimeSeconds": 2779
 }
