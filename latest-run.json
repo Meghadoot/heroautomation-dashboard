@@ -1,19 +1,19 @@
 {
-  "startedAt": "2026-10-07T22:53:44.120Z",
+  "startedAt": "2026-10-08T19:12:59.164Z",
   "date": "2026-10-08",
   "profileName": "HeroAutomation",
   "forceRun": true,
   "totalEnabledAccounts": 3,
   "attempted": 3,
   "skipped": 0,
-  "completed": 3,
-  "confirmed": 3,
+  "completed": 2,
+  "confirmed": 2,
   "timeoutOnly": 0,
-  "failed": 0,
+  "failed": 1,
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-10-07T22:53:51.459Z",
+      "startedAt": "2026-10-08T19:13:04.859Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-07T22:54:19.269Z"
+        "completedAt": "2026-10-08T19:13:26.251Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,20 +38,20 @@
         "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-07T22:58:44.414Z"
+        "completedAt": "2026-10-08T19:17:46.212Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-07T22:59:11.669Z",
-      "completedAt": "2026-10-07T22:59:15.108Z",
-      "finishedAt": "2026-10-07T22:59:21.164Z",
-      "runtimeSeconds": 330
+      "signalDetectedAt": "2026-10-08T19:18:10.891Z",
+      "completedAt": "2026-10-08T19:18:15.794Z",
+      "finishedAt": "2026-10-08T19:18:21.211Z",
+      "runtimeSeconds": 316
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-10-07T22:59:21.167Z",
+      "startedAt": "2026-10-08T19:18:21.213Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -66,7 +66,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-07T22:59:51.401Z"
+        "completedAt": "2026-10-08T19:18:57.965Z"
       },
       "dungeon": {
         "enabled": true,
@@ -76,55 +76,35 @@
         "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-07T23:04:56.116Z"
+        "completedAt": "2026-10-08T19:24:08.190Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-07T23:05:18.409Z",
-      "completedAt": "2026-10-07T23:05:22.289Z",
-      "finishedAt": "2026-10-07T23:05:28.419Z",
-      "runtimeSeconds": 367
+      "signalDetectedAt": "2026-10-08T19:24:28.927Z",
+      "completedAt": "2026-10-08T19:24:32.084Z",
+      "finishedAt": "2026-10-08T19:24:37.810Z",
+      "runtimeSeconds": 377
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-10-07T23:05:28.423Z",
+      "startedAt": "2026-10-08T19:24:37.814Z",
       "loginVerified": true,
-      "runSubmitted": true,
-      "successSignalDetected": true,
-      "logoutVerified": true,
+      "runSubmitted": false,
+      "successSignalDetected": false,
+      "logoutVerified": false,
       "goodwinProfileName": "Daily without Dungeon",
       "goodwinProfileSignature": "b4ac87d666598fff",
       "goodwinProfileApplied": false,
-      "result": "SUCCESS_CONFIRMED",
-      "minions": {
-        "enabled": true,
-        "inspectedForAccount": true,
-        "executed": true,
-        "location": "Clan Raid",
-        "completionText": "Minion Raid completed!",
-        "completedAt": "2026-10-07T23:05:55.437Z"
-      },
-      "dungeon": {
-        "enabled": true,
-        "inspectedForAccount": true,
-        "executed": true,
-        "targetTitanite": 51,
-        "observedBefore": "51",
-        "verifiedAfter": "51",
-        "completionText": "Dungeon completed!",
-        "completedAt": "2026-10-07T23:05:58.896Z"
-      },
-      "completionReason": "All tasks done",
-      "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-10-07T23:06:14.948Z",
-      "completedAt": "2026-10-07T23:06:19.036Z",
-      "finishedAt": "2026-10-07T23:06:25.324Z",
-      "runtimeSeconds": 57
+      "result": "FAILED",
+      "error": "locator.count: Target page, context or browser has been closed",
+      "finishedAt": "2026-10-08T19:28:46.229Z",
+      "recoveredToLoginPage": false,
+      "runtimeSeconds": 248
     }
   ],
-  "finishedAt": "2026-10-07T23:06:25.326Z",
-  "overallResult": "COMPLETED",
-  "runtimeSeconds": 761
+  "finishedAt": "2026-10-08T19:28:46.246Z",
+  "overallResult": "COMPLETED_WITH_FAILURES",
+  "runtimeSeconds": 947
 }
