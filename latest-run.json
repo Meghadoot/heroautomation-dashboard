@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-03T14:30:04.966Z",
-  "date": "2026-11-03",
+  "startedAt": "2026-11-04T14:30:03.397Z",
+  "date": "2026-11-04",
   "profileName": "HeroAutomation",
   "forceRun": false,
   "totalEnabledAccounts": 3,
@@ -13,7 +13,7 @@
   "accounts": [
     {
       "name": "Account-Amgy",
-      "startedAt": "2026-11-03T14:30:21.836Z",
+      "startedAt": "2026-11-04T14:30:11.446Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -28,7 +28,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-11-03T14:31:04.528Z"
+        "completedAt": "2026-11-04T14:31:14.306Z"
       },
       "dungeon": {
         "enabled": true,
@@ -38,20 +38,20 @@
         "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-11-03T14:36:01.548Z"
+        "completedAt": "2026-11-04T14:35:42.922Z"
       },
       "goodwinActionChanges": 0,
       "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-11-03T14:36:21.096Z",
-      "completedAt": "2026-11-03T14:36:24.951Z",
-      "finishedAt": "2026-11-03T14:36:37.855Z",
-      "runtimeSeconds": 376
+      "signalDetectedAt": "2026-11-04T14:36:00.823Z",
+      "completedAt": "2026-11-04T14:36:04.879Z",
+      "finishedAt": "2026-11-04T14:36:43.610Z",
+      "runtimeSeconds": 392
     },
     {
       "name": "Account-Mjata",
-      "startedAt": "2026-11-03T14:36:37.862Z",
+      "startedAt": "2026-11-04T14:36:43.611Z",
       "loginVerified": true,
       "runSubmitted": false,
       "successSignalDetected": false,
@@ -66,16 +66,16 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-11-03T14:37:24.935Z"
+        "completedAt": "2026-11-04T14:37:53.748Z"
       },
       "error": "Account-Mjata: Dungeon did not report \"Dungeon completed!\" within 20 minute(s).",
-      "finishedAt": "2026-11-03T14:57:27.324Z",
+      "finishedAt": "2026-11-04T14:57:55.226Z",
       "recoveredToLoginPage": true,
-      "runtimeSeconds": 1249
+      "runtimeSeconds": 1272
     },
     {
       "name": "Account-Joe",
-      "startedAt": "2026-11-03T14:57:39.625Z",
+      "startedAt": "2026-11-04T14:58:03.787Z",
       "loginVerified": true,
       "runSubmitted": true,
       "successSignalDetected": true,
@@ -90,7 +90,7 @@
         "executed": true,
         "location": "Clan Raid",
         "completionText": "Minion Raid completed!",
-        "completedAt": "2026-11-03T14:58:23.949Z"
+        "completedAt": "2026-11-04T14:59:08.198Z"
       },
       "dungeon": {
         "enabled": true,
@@ -100,19 +100,19 @@
         "observedBefore": "51",
         "verifiedAfter": "51",
         "completionText": "Dungeon completed!",
-        "completedAt": "2026-11-03T15:02:13.517Z"
+        "completedAt": "2026-11-04T15:03:08.889Z"
       },
-      "goodwinActionChanges": 2,
-      "goodwinQuestChanges": 3,
+      "goodwinActionChanges": 0,
+      "goodwinQuestChanges": 0,
       "completionReason": "All tasks done",
       "completionSignal": "ALL_TASKS_DONE",
-      "signalDetectedAt": "2026-11-03T15:02:29.247Z",
-      "completedAt": "2026-11-03T15:02:33.255Z",
-      "finishedAt": "2026-11-03T15:02:41.574Z",
-      "runtimeSeconds": 302
+      "signalDetectedAt": "2026-11-04T15:03:25.740Z",
+      "completedAt": "2026-11-04T15:03:30.875Z",
+      "finishedAt": "2026-11-04T15:03:45.890Z",
+      "runtimeSeconds": 342
     }
   ],
-  "finishedAt": "2026-11-03T15:02:41.577Z",
+  "finishedAt": "2026-11-04T15:03:45.892Z",
   "overallResult": "COMPLETED_WITH_FAILURES",
-  "runtimeSeconds": 1957
+  "runtimeSeconds": 2022
 }
